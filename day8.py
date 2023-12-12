@@ -22,7 +22,7 @@ class Node:
         return self.__str__()
 
 
-with open("day8-alptbz.txt", "r") as fp:
+with open("day8.txt", "r") as fp:
     lines_raw = fp.readlines()
 
 walk_instructions = lines_raw[0].strip()

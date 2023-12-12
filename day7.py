@@ -91,7 +91,7 @@ assert CardSet("23432", 0).set_type == CardSet.TYPE_TWO_PAIR
 assert CardSet("A23A4", 0).set_type == CardSet.TYPE_ONE_PAIR
 assert CardSet("23456", 0).set_type == CardSet.TYPE_HIGH_CARD
 
-with open("day7-alptbz.txt", "r") as fp:
+with open("day7.txt", "r") as fp:
     lines_raw = fp.readlines()
 
 card_sets: List[CardSet] = []

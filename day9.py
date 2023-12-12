@@ -12,7 +12,7 @@ def sequence_maker(seq):
         return seq
 
 
-with open('day9-alptbz.txt') as f:
+with open('day9.txt') as f:
     lines = f.read().splitlines()
     lines = [[int(x) for x in line.split()] for line in lines]
 
